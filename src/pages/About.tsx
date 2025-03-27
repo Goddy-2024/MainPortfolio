@@ -23,11 +23,11 @@ const About = () => {
           <div className="animate-slide-in">
             <div className="relative">
               <img 
-                src="/lovable-uploads/c27c4616-7d40-4269-a1a2-eab2c99a599e.png" 
+                src="/uploads/me.jpg" 
                 alt="Godswill Portrait" 
                 className="w-full h-auto rounded-lg shadow-xl"
               />
-              <div className="absolute -bottom-6 -right-6 w-full h-full border-2 border-navy rounded-lg z-0"></div>
+
             </div>
           </div>
           
@@ -36,7 +36,8 @@ const About = () => {
             <h3 className="text-xl font-semibold mb-4 text-gray-700">Software Engineer</h3>
             
             <p className="text-gray-600 mb-6">
-              Hello! I'm Godswill, a passionate Software Engineer based in Nairobi, Kenya. I specialize in creating 
+              Hello! I'm Godswill, an Enthusiastic Software Engineering Student in the Multimedia University of Kenya, Nairobi, Kenya. 
+              I specialize in creating 
               elegant, efficient, and user-focused digital solutions that address real-world challenges.
             </p>
             
@@ -49,7 +50,7 @@ const About = () => {
             
             <p className="text-gray-600 mb-8">
               When I'm not coding, you can find me exploring new technologies, contributing to open-source 
-              projects, or mentoring aspiring developers. I believe in continuous learning and staying 
+              projects, or designing various Ideas into reality. I believe in continuous learning and staying 
               ahead of industry trends to deliver cutting-edge solutions.
             </p>
             
