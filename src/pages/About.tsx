@@ -23,7 +23,7 @@ const About = () => {
           <div className="animate-slide-in">
             <div className="relative">
               <img 
-                src="/uploads/me.jpg" 
+                src="/uploads/m2e.jpg" 
                 alt="Godswill Portrait" 
                 className="w-full h-auto rounded-lg shadow-xl"
               />
