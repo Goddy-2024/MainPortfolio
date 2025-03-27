@@ -61,39 +61,7 @@ const Projects = () => {
             </div>
           </div>
           
-          {/* Project 2 */}
-          <div id="advert" className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="order-2 lg:order-1 animate-slide-in">
-              <h2 className="text-3xl font-bold mb-4 text-navy">THEADVERT RENDER APP</h2>
-              <p className="text-gray-600 mb-6">
-                An innovative application for creating, managing, and rendering advertisements across multiple platforms. The app includes features for design, targeting, analytics, and campaign optimization to help businesses maximize their advertising impact.
-              </p>
-              <div className="mb-6">
-                <h3 className="font-semibold text-navy mb-2">Technologies Used:</h3>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-navy/10 text-navy rounded-full text-sm">Vue.js</span>
-                  <span className="px-3 py-1 bg-navy/10 text-navy rounded-full text-sm">Python</span>
-                  <span className="px-3 py-1 bg-navy/10 text-navy rounded-full text-sm">Django</span>
-                  <span className="px-3 py-1 bg-navy/10 text-navy rounded-full text-sm">PostgreSQL</span>
-                  <span className="px-3 py-1 bg-navy/10 text-navy rounded-full text-sm">AWS</span>
-                </div>
-              </div>
-              <a 
-                href="https://github.com/Goddy-2024/Advert-Render" 
-                className="btn-primary inline-block"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Live Project
-              </a>
-            </div>
-            <div className="order-1 lg:order-2 animate-slide-in" style={{ animationDelay: "0.2s" }}>
-            <img src="/uploads/digitaladvert.webp" className="bg-gray-200 h-80 rounded-lg flex items-center justify-center" />
-            <p className="text-gray-500 font-medium">TheAdvert Render App Screenshot</p>
-              </div>
-            
-          </div>
-          
+
           {/* Project 3 */}
           <div id="ledger" className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in">
