@@ -25,9 +25,9 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
     
     // Update document class for Tailwind
     if (theme === "dark") {
-      document.documentElement.classList.add("dark");
+      document.documentElement.classList.add("light");
     } else {
-      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.remove("light");
     }
   }, [theme]);
 
