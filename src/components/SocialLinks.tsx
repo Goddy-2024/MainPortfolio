@@ -39,7 +39,7 @@ export const SocialLinks = () => {
       </a>
       
       <a 
-        href="https://facebook.com/" 
+        href="https://www.facebook.com/godswill.767370/" 
         target="_blank" 
         rel="noopener noreferrer"
         className="social-icon"
