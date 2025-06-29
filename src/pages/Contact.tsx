@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { ContactInfo } from "@/components/ContactInfo";
 import { toast } from "@/components/ui/use-toast";
+import axios from 'axios';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -20,6 +21,14 @@ const Contact = () => {
   
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+        try {
+      axios.post('https://myportfoliobackend-ofme.onrender.com/send-email', formData);
+      alert("Message Sent!");
+    } catch (error) {
+      alert("Error sending message");
+      console.log(error);
+      
+    }
     setLoading(true);
     
     // Simulate form submission
